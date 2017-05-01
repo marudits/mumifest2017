@@ -828,7 +828,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAotHlRfvgnIsD2VLxcEe3qcN-cT9_dxr0&sensor=true"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAotHlRfvgnIsD2VLxcEe3qcN-cT9_dxr0"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
