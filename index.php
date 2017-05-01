@@ -119,7 +119,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-9">
-                    <svg viewBox="0 0 960 100">
+                    <svg viewBox="0 0 960 120">
                         <symbol id="s-text">
                             <text text-anchor="middle" x="50%" y="80%">Mumifest</text>
                         </symbol>
