@@ -765,7 +765,7 @@
 
 
     <section id="contact">
-        <div id="google-map" style="height:650px" data-latitude="52.365629" data-longitude="4.871331"></div>
+        <div id="google-map" style="height:650px" data-latitude="112.6446268" data-longitude="-8.0342677"></div>
         <div class="container-wrapper">
             <div class="container">
                 <div class="row">
@@ -828,7 +828,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAotHlRfvgnIsD2VLxcEe3qcN-cT9_dxr0&sensor=true"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
