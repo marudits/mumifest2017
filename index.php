@@ -15,6 +15,10 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -98,6 +102,22 @@
             <div class="row">
                 <div class="col-sm-9">
                     <h2>Premium quality free onepage template</h2>
+
+
+                    <div class="content">
+                      <div class="content__container">
+                        <p class="content__container__text">
+                          Multimedia 
+                        </p>
+                        
+                        <ul class="content__container__list">
+                          <li class="content__container__list__item">Angkatan I</li>
+                          <li class="content__container__list__item">Angkatan II</li>
+                          <li class="content__container__list__item">users !</li>
+                          <li class="content__container__list__item">everybody !</li>
+                        </ul>
+                      </div>
+                    </div>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                     </p>
                 </div>
