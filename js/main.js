@@ -161,7 +161,7 @@ jQuery(function($) {'use strict';
 		});
 
 		//Animated Number
-		$.fn.animateNumbers = function(stop, commas, duration, ease) {
+		$.fn.animateNumbers = function(stop, commas, duration, label, ease) {
 			return this.each(function() {
 				var $this = $(this);
 				var start = parseInt($this.text().replace(/,/g, ""));
@@ -178,6 +178,7 @@ jQuery(function($) {'use strict';
 							$this.text(stop);
 							if (commas) { $this.text($this.text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")); }
 						}
+						$this.text(label)
 					}
 				});
 			});
@@ -186,7 +187,7 @@ jQuery(function($) {'use strict';
 		$('.animated-number').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
 			var $this = $(this);
 			if (visible) {
-				$this.animateNumbers($this.data('digit'), false, $this.data('duration')); 
+				$this.animateNumbers($this.data('digit'), false, $this.data('duration'), $this.data('label')); 
 				$this.unbind('inview');
 			}
 		});

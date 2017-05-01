@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Responsive Onepage HTML Template | Multi</title>
-	<!-- core CSS -->
+    <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -18,6 +18,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="css/flexpanel.css">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -42,9 +45,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo/logo-text-2.png" alt="logo"></a>
                 </div>
-				
+                
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Home</a></li>
@@ -94,6 +97,21 @@
                     </div>
                 </div>
             </div><!--/.item-->
+            <div class="item" style="background-image: url(images/slider/bg3.png);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2>Beautifully designed <span>free</span> one page template</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
+                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
         </div><!--/.owl-carousel-->
     </section><!--/#main-slider-->
 
@@ -101,23 +119,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-9">
-                    <h2>Premium quality free onepage template</h2>
+                    <svg viewBox="0 0 960 100">
+                        <symbol id="s-text">
+                            <text text-anchor="middle" x="50%" y="80%">Mumifest</text>
+                        </symbol>
 
-
-                    <div class="content">
-                      <div class="content__container">
-                        <p class="content__container__text">
-                          Multimedia 
-                        </p>
-                        
-                        <ul class="content__container__list">
-                          <li class="content__container__list__item">Angkatan I</li>
-                          <li class="content__container__list__item">Angkatan II</li>
-                          <li class="content__container__list__item">users !</li>
-                          <li class="content__container__list__item">everybody !</li>
-                        </ul>
-                      </div>
-                    </div>
+                        <g class = "g-ants">
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
+                    
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                     </p>
                 </div>
@@ -127,158 +142,6 @@
             </div>
         </div>
     </section><!--/#cta-->
-
-    <section id="features">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Awesome Features</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                    <img class="img-responsive" src="images/main-feature.png" alt="">
-                </div>
-                <div class="col-sm-6">
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i class="fa fa-line-chart"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">UX design</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        </div>
-                    </div>
-
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i class="fa fa-cubes"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">UI design</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        </div>
-                    </div>
-
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i class="fa fa-pie-chart"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">SEO Services</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        </div>
-                    </div>
-
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i class="fa fa-pie-chart"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">SEO Services</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="cta2">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms"><span>MULTI</span> IS A CREATIVE HTML TEMPLATE</h2>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">Mauris pretium auctor quam. Vestibulum et nunc id nisi fringilla <br />iaculis. Mauris pretium auctor quam.</p>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="#">Free Download</a></p>
-                <img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
-            </div>
-        </div>
-    </section>
-
-    <section id="services" >
-        <div class="container">
-
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-line-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">UX design</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-cubes"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">UI design</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-pie-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SEO Services</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">iOS App</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-language"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Android App</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bullseye"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Win App</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div>
-            </div><!--/.row-->    
-        </div><!--/.container-->
-    </section><!--/#services-->
 
     <section id="portfolio">
         <div class="container">
@@ -388,117 +251,303 @@
         </div><!--/.container-->
     </section><!--/#portfolio-->
 
-    <section id="about">
+    <section id="features">
         <div class="container">
-
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">About Us</h2>
+                <h2 class="section-title text-center wow fadeInDown">Awesome Entertainment</h2>
                 <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
-
             <div class="row">
                 <div class="col-sm-6 wow fadeInLeft">
-                    <h3 class="column-title">Video Intro</h3>
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="//player.vimeo.com/video/58093852?title=0&amp;byline=0&amp;portrait=0&amp;color=e79b39" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
+                    <img class="img-responsive" src="images/main-feature.png" alt="">
                 </div>
-
-                <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Multi Capability</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <ul class="nostyle">
-                                <li><i class="fa fa-check-square"></i> Ipsum is simply dummy</li>
-                                <li><i class="fa fa-check-square"></i> When an unknown</li>
-                            </ul>
+                <div class="col-sm-6">
+                    <div class="media service-box wow fadeInRight">
+                        <div class="pull-left">
+                            <i class="fa fa-line-chart"></i>
                         </div>
-
-                        <div class="col-sm-6">
-                            <ul class="nostyle">
-                                <li><i class="fa fa-check-square"></i> The printing and typesetting</li>
-                                <li><i class="fa fa-check-square"></i> Lorem Ipsum has been</li>
-                            </ul>
+                        <div class="media-body">
+                            <h4 class="media-heading">Flashmob</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
                         </div>
                     </div>
 
-                    <a class="btn btn-primary" href="#">Learn More</a>
+                    <div class="media service-box wow fadeInRight">
+                        <div class="pull-left">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Music Performance</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                        </div>
+                    </div>
 
+                    <div class="media service-box wow fadeInRight">
+                        <div class="pull-left">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Running Man's Game</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                        </div>
+                    </div>
+
+                    <div class="media service-box wow fadeInRight">
+                        <div class="pull-left">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Movie Show</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section><!--/#about-->
+    </section>
 
-    <section id="work-process">
+    <section id="animated-number">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Process</h2>
+                <h2 class="section-title text-center wow fadeInDown">Fun Facts</h2>
                 <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
             <div class="row text-center">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="icon-circle">
-                            <span>1</span>
-                            <i class="fa fa-coffee fa-2x"></i>
+                <div class="col-md-12">
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="animated-number" data-digit="1" data-label="1" data-duration="1000"></div>
+                            <strong>DEPARTMENT</strong>
                         </div>
-                        <h3>MEET</h3>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="animated-number" data-digit="10" data-label="10" data-duration="1000"></div>
+                            <strong>GENERATIONS</strong>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="animated-number" data-digit="50" data-label="50+" data-duration="1000"></div>
+                            <strong>VOLUNTEERS</strong>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="animated-number" data-digit="300" data-label="300+" data-duration="1000"></div>
+                            <strong>ATTENDANCES</strong>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="animated-number" data-digit="9999" data-label="&infin;" data-duration="1000"></div>
+                            <strong>GREAT MEMORIES</strong>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="icon-circle">
-                            <span>2</span>
-                            <i class="fa fa-bullhorn fa-2x"></i>
+                
+            </div>
+        </div>
+    </section><!--/#animated-number-->
+
+    <section id="timeline" class="cd-horizontal-timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol style="list-style: none">
+                        <li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+                        <li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
+                        <li><a href="#0" data-date="20/04/2014">20 Mar</a></li>
+                        <li><a href="#0" data-date="20/05/2014">20 May</a></li>
+                        <li><a href="#0" data-date="09/07/2014">09 Jul</a></li>
+                        <li><a href="#0" data-date="30/08/2014">30 Aug</a></li>
+                        <li><a href="#0" data-date="15/09/2014">15 Sep</a></li>
+                        <li><a href="#0" data-date="01/11/2014">01 Nov</a></li>
+                        <li><a href="#0" data-date="10/12/2014">10 Dec</a></li>
+                        <li><a href="#0" data-date="19/01/2015">29 Jan</a></li>
+                        <li><a href="#0" data-date="03/03/2015">3 Mar</a></li>
+                    </ol>
+
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+                
+            <ul style="list-style: none" class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+
+        <div class="events-content">
+            <ol style="list-style: none">
+                <li class="selected" data-date="16/01/2014">
+                    <h2>Horizontal Timeline</h2>
+                    <em>January 16th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="28/02/2014">
+                    <h2>Event title here</h2>
+                    <em>February 28th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="20/04/2014">
+                    <h2>Event title here</h2>
+                    <em>March 20th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="20/05/2014">
+                    <h2>Event title here</h2>
+                    <em>May 20th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="09/07/2014">
+                    <h2>Event title here</h2>
+                    <em>July 9th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="30/08/2014">
+                    <h2>Event title here</h2>
+                    <em>August 30th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="15/09/2014">
+                    <h2>Event title here</h2>
+                    <em>September 15th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="01/11/2014">
+                    <h2>Event title here</h2>
+                    <em>November 1st, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="10/12/2014">
+                    <h2>Event title here</h2>
+                    <em>December 10th, 2014</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="19/01/2015">
+                    <h2>Event title here</h2>
+                    <em>January 19th, 2015</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="03/03/2015">
+                    <h2>Event title here</h2>
+                    <em>March 3rd, 2015</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+            </ol>
+        </div> <!-- .events-content -->
+    </section>
+
+    <section id="cta2">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms"><span>MULTI</span> IS A CREATIVE HTML TEMPLATE</h2>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">Mauris pretium auctor quam. Vestibulum et nunc id nisi fringilla <br />iaculis. Mauris pretium auctor quam.</p>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="#">Free Download</a></p>
+                <img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+            </div>
+        </div>
+        <div class="panels">
+            <div class="panel" id="panel1">
+                <p>Hey</p>
+                <p>Let's</p>
+                <p>Dance</p>
+            </div>
+            <div class="panel" id="panel2">
+                <p>Give</p>
+                <p>Take</p>
+                <p>Receive</p>
+            </div>
+            <div class="panel" id="panel3">
+                <p>Experience</p>
+                <p>It</p>
+                <p>Today</p>
+            </div>
+            <div class="panel" id="panel4">
+                <p>Give</p>
+                <p>All</p>
+                <p>You can</p>
+            </div>
+            <div class="panel" id="panel5">
+                <p>Life</p>
+                <p>In</p>
+                <p>Motion</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+
+                    <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
+                                <h4>Louise S. Morgan</h4>
+                                <small>Treatment, storage, and disposal (TSD) worker</small>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            </div>
+                            <div class="item">
+                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
+                                <h4>Louise S. Morgan</h4>
+                                <small>Treatment, storage, and disposal (TSD) worker</small>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            </div>
                         </div>
-                        <h3>PLAN</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="icon-circle">
-                            <span>3</span>
-                            <i class="fa fa-image fa-2x"></i>
+
+                        <!-- Controls -->
+                        <div class="btns">
+                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                        <h3>DESIGN</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="icon-circle">
-                            <span>4</span>
-                            <i class="fa fa-heart fa-2x"></i>
-                        </div>
-                        <h3>DEVELOP</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
-                        <div class="icon-circle">
-                            <span>5</span>
-                            <i class="fa fa-shopping-cart fa-2x"></i>
-                        </div>
-                        <h3>TESTING</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
-                        <div class="icon-circle">
-                            <span>6</span>
-                            <i class="fa fa-space-shuttle fa-2x"></i>
-                        </div>
-                        <h3>LAUNCH</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </section><!--/#work-process-->
+    </section><!--/#testimonial-->
 
     <section id="meet-team">
         <div class="container">
@@ -582,154 +631,8 @@
                 </div>
             </div>
 
-            <div class="divider"></div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3 class="column-title">Our Skills</h3>
-                    <strong>GRAPHIC DESIGN</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="85">85%</div>
-                    </div>
-                    <strong>WEB DESIGN</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="70">70%</div>
-                    </div>
-                    <strong>WORDPRESS DEVELOPMENT</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="90">90%</div>
-                    </div>
-                    <strong>JOOMLA DEVELOPMENT</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="65">65%</div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <h3 class="column-title">Our History</h3>
-                    <div role="tabpanel">
-                        <ul class="nav main-tab nav-justified" role="tablist">
-                            <li role="presentation" class="active">
-                                <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">2010</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab2" role="tab" data-toggle="tab" aria-controls="tab2" aria-expanded="false">2011</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab3" role="tab" data-toggle="tab" aria-controls="tab3" aria-expanded="false">2013</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab4" role="tab" data-toggle="tab" aria-controls="tab4" aria-expanded="false">2014</a>
-                            </li>
-                        </ul>
-                        <div id="tab-content" class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <h3 class="column-title">Faqs</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Enim eiusmod high life accusamus
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Nihil anim keffiyeh helvetica
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Vegan excepteur butcher vice lomo
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </section><!--/#meet-team-->
-
-    <section id="animated-number">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Fun Facts</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="animated-number" data-digit="2305" data-duration="1000"></div>
-                        <strong>CUPS OF COFFEE CONSUMED</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="animated-number" data-digit="1231" data-duration="1000"></div>
-                        <strong>CLIENT WORKED WITH</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="animated-number" data-digit="3025" data-duration="1000"></div>
-                        <strong>PROJECT COMPLETED</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="animated-number" data-digit="1199" data-duration="1000"></div>
-                        <strong>QUESTIONS ANSWERED</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#animated-number-->
 
     <section id="pricing">
         <div class="container">
@@ -851,135 +754,6 @@
         </div>
     </section><!--/#pricing-->
 
-    <section id="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                                <h4>Louise S. Morgan</h4>
-                                <small>Treatment, storage, and disposal (TSD) worker</small>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </div>
-                            <div class="item">
-                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                                <h4>Louise S. Morgan</h4>
-                                <small>Treatment, storage, and disposal (TSD) worker</small>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <div class="btns">
-                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
-                                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next">
-                                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#testimonial-->
-
-    <section id="blog">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img class="img-responsive" src="images/blog/01.jpg" alt="">
-                                    <span class="post-format post-format-video"><i class="fa fa-film"></i></span>
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">While now the fated Pequod had been so long afloat this</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                                <a class="btn btn-primary" href="#">Read More</a>
-                            </div>
-
-                            <footer class="entry-meta">
-                                <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Victor</a></span>
-                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
-                                <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
-                            </footer>
-                        </article>
-                    </div>
-                </div><!--/.col-sm-6-->
-                <div class="col-sm-6">
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" src="images/blog/02.jpg" alt="">
-                                <span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">01 December 2014</div>
-                                    <h2 class="entry-title"><a href="#">BeReviews was a awesome envent in dhaka</a></h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Campbell</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" src="images/blog/03.jpg" alt="">
-                                <span class="post-format post-format-audio"><i class="fa fa-music"></i></span>
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">03 November 2014</div>
-                                    <h2 class="entry-title"><a href="#">Play list of old bangle  music and gajal</a></h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ruth</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
     <section id="get-in-touch">
         <div class="container">
             <div class="section-header">
@@ -1063,5 +837,8 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/timeline.js"></script>
+    <script type="text/javascript" src="js/flexpanel.js"></script>
 </body>
 </html>
