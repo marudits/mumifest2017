@@ -122,7 +122,7 @@
                 <div class="col-sm-9">
                     <svg viewBox="0 0 960 120">
                         <symbol id="s-text">
-                            <text text-anchor="middle" x="50%" y="80%">Mumifest</text>
+                            <text text-anchor="middle" x="50%" y="80%">MumiFest</text>
                         </symbol>
 
                         <g class = "g-ants">
@@ -153,7 +153,7 @@
 
             <div class="text-center">
                 <ul class="portfolio-filter">
-                    <li><a class="active" href="#" data-filter="all">All Works</a></li>
+                    <li><a class="active" href="#" data-filter=".all">All Works</a></li>
                     <li><a href="#" data-filter=".movie">Movie</a></li>
                     <li><a href="#" data-filter=".music">Music</a></li>
                     <li><a href="#" data-filter=".dance">Dance</a></li>
@@ -173,7 +173,7 @@
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item all music artwork">
+                <div class="portfolio-item all movie artwork">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
                         <div class="portfolio-info">
@@ -206,7 +206,7 @@
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item music movie dance">
+                <div class="portfolio-item all music movie dance">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
                         <div class="portfolio-info">
@@ -217,7 +217,7 @@
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item artwork music">
+                <div class="portfolio-item all artwork music">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
                         <div class="portfolio-info">
@@ -228,7 +228,7 @@
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item music dance">
+                <div class="portfolio-item all music dance">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
                         <div class="portfolio-info">
@@ -239,7 +239,7 @@
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item movie artwork dance">
+                <div class="portfolio-item all movie artwork dance">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
                         <div class="portfolio-info">
@@ -270,7 +270,8 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Flashmob</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
 
@@ -280,7 +281,8 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Music Performance</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
 
@@ -290,7 +292,8 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Running Man's Game</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
 
@@ -300,7 +303,8 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Movie Show</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -360,7 +364,8 @@
                     <ol style="list-style: none">
                         <li><a href="#0" data-date="16/01/2017" class="selected">16 Jan</a></li>
                         <li><a href="#0" data-date="28/02/2017">28 Feb</a></li>
-                        <li><a href="#0" data-date="20/04/2017">20 Mar</a></li>
+                        <li><a href="#0" data-date="23/03/2017">23 Mar</a></li>
+                        <li><a href="#0" data-date="01/04/2017">01 Apr</a></li>
                         <li><a href="#0" data-date="20/05/2017">20 May</a></li>
                         <li><a href="#0" data-date="09/07/2017">09 Jul</a></li>
                     </ol>
@@ -393,16 +398,24 @@
                     </p>
                 </li>
 
-                <li data-date="20/04/2017">
+                <li data-date="23/03/2017">
                     <h2>Flooring the concept</h2>
-                    <em>March 20th, 2017</em>
+                    <em>March 23rd, 2017</em>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                    </p>
+                </li>
+
+                <li data-date="01/04/2017">
+                    <h2>Start the work</h2>
+                    <em>April 1st, 2017</em>
                     <p> 
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
                     </p>
                 </li>
 
                 <li data-date="20/05/2017">
-                    <h2>Pre-event</h2>
+                    <h2>Pre-sales Ticket</h2>
                     <em>May 20th, 2017</em>
                     <p> 
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
@@ -611,7 +624,8 @@
                             <li>MINERAL WATER</li>
                             <li>STICKER</li>
                             <li>SNACK</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
+                            <li>-</li>
+                            <li class="plan-purchase"><a class="btn btn-primary" href="#">GET NOW</a></li>
                         </ul>
                     </div>
                 </div>
@@ -674,6 +688,9 @@
                                     <span class="price">
                                         &infin;
                                     </span>
+                                    <span class="duration">
+                                        sponsorship
+                                    </span>
                                 </div>
 
                                 <div class="plan-name">
@@ -705,9 +722,6 @@
         </div>
     </section><!--/#get-in-touch-->
 
-
-   
-
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -734,7 +748,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAotHlRfvgnIsD2VLxcEe3qcN-cT9_dxr0"></script>
+    <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyAotHlRfvgnIsD2VLxcEe3qcN-cT9_dxr0"></script> -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
