@@ -266,7 +266,7 @@
                 <div class="col-sm-6">
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
-                            <i class="fa fa-line-chart"></i>
+                            <i class="fa fa-group"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Flashmob</h4>
@@ -277,7 +277,7 @@
 
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
-                            <i class="fa fa-cubes"></i>
+                            <i class="fa fa-music"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Music Performance</h4>
@@ -288,7 +288,7 @@
 
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
-                            <i class="fa fa-pie-chart"></i>
+                            <i class="fa fa-gamepad"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Running Man's Game</h4>
@@ -299,7 +299,7 @@
 
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
-                            <i class="fa fa-pie-chart"></i>
+                            <i class="fa fa-movie"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Movie Show</h4>
@@ -631,7 +631,7 @@
                 </div>
                 
                 <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                         <ul class="pricing">
                             <li class="plan-header">
                                 <div class="price-duration">
@@ -656,7 +656,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
                         <ul class="pricing">
                             <li class="plan-header">
                                 <div class="price-duration">
@@ -681,7 +681,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
                         <ul class="pricing featured">
                             <li class="plan-header">
                                 <div class="price-duration">
