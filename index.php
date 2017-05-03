@@ -299,7 +299,7 @@
 
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
-                            <i class="fa fa-movie"></i>
+                            <i class="fa fa-film"></i>
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Movie Show</h4>
